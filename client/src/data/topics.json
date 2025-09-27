@@ -1,0 +1,80 @@
+{
+    "frontend": [
+      { "key": "html-css", "title": "HTML & CSS", "items": ["Semantic HTML", "Flex/Grid", "Accessibility", "CSS Variables", "Animations"] },
+      { "key": "javascript", "title": "JavaScript", "items": ["ESNext", "Async/Await", "Closures", "Prototypes", "Modules"] },
+      { "key": "react", "title": "React", "items": ["Hooks", "State Management", "Performance", "Testing", "Context"] },
+      { "key": "next", "title": "Next.js", "items": ["App Router", "SSR/SSG", "API Routes", "Optimizations", "Deployment"] },
+      { "key": "vue", "title": "Vue.js", "items": ["Composition API", "Reactivity", "Components", "Routing", "State"] },
+      { "key": "angular", "title": "Angular", "items": ["Components", "Services", "Dependency Injection", "RxJS", "Testing"] }
+    ],
+    "backend": [
+      { "key": "node", "title": "Node.js", "items": ["Event Loop", "Streams", "Performance", "Security", "Testing"] },
+      { "key": "nest", "title": "NestJS", "items": ["Modules", "Dependency Injection", "Guards", "Interceptors", "Microservices"] },
+      { "key": "python", "title": "Python", "items": ["Django", "Flask", "FastAPI", "Async", "Testing"] },
+      { "key": "java", "title": "Java", "items": ["Spring Boot", "JPA", "Security", "Microservices", "Testing"] },
+      { "key": "db", "title": "Databases", "items": ["SQL", "NoSQL", "Indexing", "Transactions", "Scaling"] },
+      { "key": "api", "title": "API Design", "items": ["REST", "GraphQL", "Authentication", "Rate Limiting", "Documentation"] }
+    ],
+    "fullstack": [
+      { "key": "architecture", "title": "System Architecture", "items": ["Microservices", "Monoliths", "Caching", "Load Balancing", "Scaling"] },
+      { "key": "deployment", "title": "Deployment", "items": ["Docker", "Kubernetes", "CI/CD", "Monitoring", "Security"] },
+      { "key": "performance", "title": "Performance", "items": ["Optimization", "Caching", "CDN", "Database Tuning", "Monitoring"] },
+      { "key": "security", "title": "Security", "items": ["Authentication", "Authorization", "OWASP", "Encryption", "Auditing"] }
+    ],
+    "mobile": [
+      { "key": "react-native", "title": "React Native", "items": ["Components", "Navigation", "State", "Performance", "Native Modules"] },
+      { "key": "flutter", "title": "Flutter", "items": ["Widgets", "State Management", "Navigation", "Platform Channels", "Testing"] },
+      { "key": "ios", "title": "iOS", "items": ["Swift", "UIKit", "SwiftUI", "Core Data", "Testing"] },
+      { "key": "android", "title": "Android", "items": ["Kotlin", "Jetpack", "Compose", "Room", "Testing"] }
+    ],
+    "devops": [
+      { "key": "docker", "title": "Docker", "items": ["Containers", "Images", "Dockerfile", "Compose", "Registry"] },
+      { "key": "kubernetes", "title": "Kubernetes", "items": ["Pods", "Services", "Deployments", "Ingress", "Helm"] },
+      { "key": "aws", "title": "AWS", "items": ["EC2", "S3", "Lambda", "RDS", "CloudFormation"] },
+      { "key": "ci-cd", "title": "CI/CD", "items": ["GitHub Actions", "Jenkins", "GitLab CI", "Testing", "Deployment"] },
+      { "key": "monitoring", "title": "Monitoring", "items": ["Prometheus", "Grafana", "ELK Stack", "Alerting", "Logging"] }
+    ],
+    "data": [
+      { "key": "python", "title": "Python", "items": ["Pandas", "NumPy", "Scikit-learn", "Jupyter", "Data Visualization"] },
+      { "key": "machine-learning", "title": "Machine Learning", "items": ["Algorithms", "Feature Engineering", "Model Evaluation", "Deep Learning", "MLOps"] },
+      { "key": "sql", "title": "SQL & Databases", "items": ["Query Optimization", "Data Modeling", "ETL", "Data Warehousing", "Analytics"] },
+      { "key": "statistics", "title": "Statistics", "items": ["Probability", "Hypothesis Testing", "Regression", "Time Series", "A/B Testing"] }
+    ],
+    "qa": [
+      { "key": "testing", "title": "Testing", "items": ["Unit Testing", "Integration Testing", "E2E Testing", "Test Automation", "TDD"] },
+      { "key": "selenium", "title": "Selenium", "items": ["WebDriver", "Page Object Model", "TestNG", "Cucumber", "Reporting"] },
+      { "key": "performance", "title": "Performance Testing", "items": ["Load Testing", "Stress Testing", "JMeter", "K6", "Monitoring"] },
+      { "key": "api-testing", "title": "API Testing", "items": ["Postman", "REST Assured", "Contract Testing", "Mocking", "Validation"] }
+    ],
+    "ui-ux": [
+      { "key": "design", "title": "Design", "items": ["Figma", "Sketch", "Adobe XD", "Prototyping", "Design Systems"] },
+      { "key": "research", "title": "User Research", "items": ["Interviews", "Surveys", "Usability Testing", "Personas", "Journey Mapping"] },
+      { "key": "accessibility", "title": "Accessibility", "items": ["WCAG", "Screen Readers", "Color Contrast", "Keyboard Navigation", "Testing"] },
+      { "key": "interaction", "title": "Interaction Design", "items": ["Micro-interactions", "Animation", "Feedback", "Error Handling", "Navigation"] }
+    ],
+    "cybersecurity": [
+      { "key": "network", "title": "Network Security", "items": ["Firewalls", "VPN", "Intrusion Detection", "Penetration Testing", "Vulnerability Assessment"] },
+      { "key": "application", "title": "Application Security", "items": ["OWASP", "Code Review", "SAST/DAST", "Authentication", "Authorization"] },
+      { "key": "incident", "title": "Incident Response", "items": ["Forensics", "Malware Analysis", "Threat Hunting", "SOC", "Recovery"] },
+      { "key": "compliance", "title": "Compliance", "items": ["GDPR", "HIPAA", "SOX", "PCI DSS", "Risk Assessment"] }
+    ],
+    "product": [
+      { "key": "strategy", "title": "Strategy", "items": ["Roadmaps", "KPIs", "Market Research", "Competitive Analysis", "Vision"] },
+      { "key": "execution", "title": "Execution", "items": ["Agile", "Scrum", "User Stories", "Prioritization", "Stakeholder Management"] },
+      { "key": "analytics", "title": "Analytics", "items": ["Metrics", "A/B Testing", "User Behavior", "Funnel Analysis", "Reporting"] },
+      { "key": "growth", "title": "Growth", "items": ["Acquisition", "Retention", "Monetization", "Experimentation", "Optimization"] }
+    ],
+    "hr": [
+      { "key": "behavioral", "title": "Behavioral", "items": ["STAR Method", "Leadership", "Teamwork", "Conflict Resolution", "Communication"] },
+      { "key": "recruitment", "title": "Recruitment", "items": ["Sourcing", "Screening", "Interviewing", "Assessment", "Onboarding"] },
+      { "key": "development", "title": "Development", "items": ["Training", "Performance Management", "Career Planning", "Mentoring", "Feedback"] },
+      { "key": "culture", "title": "Culture", "items": ["Employee Engagement", "Diversity", "Retention", "Wellness", "Recognition"] }
+    ],
+    "sales": [
+      { "key": "prospecting", "title": "Prospecting", "items": ["Lead Generation", "Qualification", "Cold Outreach", "CRM", "Pipeline Management"] },
+      { "key": "negotiation", "title": "Negotiation", "items": ["Pricing", "Contracts", "Objection Handling", "Closing", "Relationship Building"] },
+      { "key": "presentation", "title": "Presentation", "items": ["Pitch Decks", "Demo", "Storytelling", "ROI", "Value Proposition"] },
+      { "key": "account", "title": "Account Management", "items": ["Retention", "Upselling", "Cross-selling", "Customer Success", "Renewals"] }
+    ]
+  }
+  
