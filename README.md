@@ -2,7 +2,7 @@
 
 **AI-Powered Interview Practice Platform**
 
-InterviewCraft is a modern, full-stack application that helps developers practice technical interviews with AI-generated questions and instant feedback. Built with Next.js 15, NestJS, and OpenAI's GPT models.
+InterviewCraft is a modern, full-stack application that helps developers practice technical interviews with AI-generated questions and instant feedback. Built with Next.js 15, NestJS, and Google Gemini's model.
 
 ## ✨ Features
 
@@ -34,7 +34,7 @@ InterviewCraft is a modern, full-stack application that helps developers practic
 
 ### **Backend (Server)**
 - **Framework**: NestJS with TypeScript
-- **AI Integration**: OpenAI GPT-4o-mini for question generation and evaluation
+- **AI Integration**: Google Gemini for question generation and evaluation
 - **Validation**: Class-validator for request validation
 - **Security**: Helmet for security headers, Throttler for rate limiting
 - **Environment**: Joi for environment variable validation
@@ -44,7 +44,7 @@ InterviewCraft is a modern, full-stack application that helps developers practic
 ### Prerequisites
 - Node.js 18+ 
 - npm or yarn
-- OpenAI API key
+- Gemini API key
 
 ### Installation
 
@@ -192,8 +192,8 @@ cd ../client && npm run build
 ### **Environment Variables**
 Ensure the following environment variables are set in production:
 ```env
-OPENAI_API_KEY=your_production_openai_key
-OPENAI_MODEL=gpt-4o-mini
+GEMINI_API_KEY=<Api Key>
+GEMINI_MODEL=gemini-2.5-flash
 PORT=4000
 NODE_ENV=production
 ```
