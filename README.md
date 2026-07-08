@@ -69,8 +69,8 @@ InterviewCraft is a modern, full-stack application that helps developers practic
    
    Create `.env` file in the server directory:
    ```env
-   OPENAI_API_KEY=your_openai_api_key_here
-   OPENAI_MODEL=gpt-4o-mini
+   GEMINI_API_KEY=<Api Key>
+   GEMINI_MODEL=gemini-2.5-flash
    PORT=4000
    ```
 
